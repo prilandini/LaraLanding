@@ -1,0 +1,656 @@
+
+
+/* Dekstop Version */
+
+@media (min-width: 992px) {
+
+    .bg-dasar {
+        background-image : url(../img/bg.png);
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .buttonmore {
+      background-image: linear-gradient(to right, #45A562 25%, #56C281 75%);
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+
+    /* Navbar */
+    .nav-link {
+      margin-right:2.8em;
+      font-size: 16px;
+      font-weight: bold;
+      color: #349C55 !important;
+      margin-left: 0.23rem;
+    }
+  
+    .nav-link:hover {
+      font-weight: bolder;
+    }
+    .navbar {
+        padding-top: 20px;
+    }
+
+    .navbar-brand img {
+        width: 180px;
+    }
+
+    .nav-link {
+        margin-right: 40px;
+        font-size: 16px;
+        color: #349C55!important;
+    }
+
+    .nav-link:hover:after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #349C55;
+        font-weight: bolder;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    /* End Navbar */
+
+    /* content */
+
+    .content {
+        padding-top: 60px;        
+    }
+
+    .content img {
+        width: 80%;
+    }
+    
+    .map-img {
+        width: 60% !important;
+        margin-left: 50px !important;
+    }
+    .content h1 {
+        padding-top: 40px;
+        color: #45A562; 
+        padding-bottom: 15px;
+        font-family: "Roboto";
+        font-size: large;
+    }
+
+    /* End content */
+
+    /* Footer */
+
+    .footer{
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+    }
+
+    .footer img{
+        width: 100%;        
+    }
+
+    /* End Footer */
+}
+/* End Dekstop Version */
+
+/* Tablet Version */
+
+
+@media (max-width: 997px) { 
+
+  .bg-dasar {
+    background-image: url(../img/bg.png);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .content {
+    padding-top: 60px;
+  }
+
+  .content img {
+    padding-top: 40px;
+  }
+
+  .footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+  }
+
+  .footer img{
+    width: 100%;        
+  }
+
+
+
+ /* Navbar */
+
+ .navbar {
+  padding-top: 20px;
+}
+
+.navbar-brand img {
+  width: 180px;
+}
+
+
+
+.nav-link:hover:after {
+  content: '';
+  display: block;
+  /* border-bottom: 3px solid #349C55; */
+  font-weight: bolder;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+  }
+}
+/* End Navbar */
+
+/* End Tablet Version */
+
+/* Mobile Version */
+
+
+
+@media (max-width: 767px) { 
+  .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #349C55 !important;
+    margin-left: 1.5rem;
+}
+  
+
+  .nav-link:hover {
+    font-weight: bolder;
+  }
+  
+  .pagination a {
+    color: black;
+    float: right;
+    padding: 0;
+    text-decoration: none;
+    transition: background-color .3s;
+    margin-top: 4%;
+    font-size: 16.5px;
+    
+  }
+  
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .bg-dasar {
+    background-image: url(../img/bg.png);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+  }
+
+  .footer img{
+    width: 100%;        
+  }
+
+  .navbar-brand img {
+    width: 180px;
+  }
+
+  .content {
+    margin-top: -100px;
+  }
+
+  .content img {
+    width: 80%;
+  }
+
+}
+
+
+@media (max-width: 375px) { 
+  .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #349C55 !important;
+    margin-left: 1.73rem;
+} 
+
+  .nav-link:hover {
+    font-weight: bolder;
+  }
+  
+  .pagination a {
+    color: black;
+    float: right;
+    padding: 0;
+    text-decoration: none;
+    transition: background-color .3s;
+    font-size: 13px;
+    
+  }
+  
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .navbar-collapse{
+    position: absolute;
+    left: 10;
+    padding-top: 5px;
+    top: 10px;
+    z-index: 100;
+    background-attachment: fixed;
+  }
+
+  .bg-dasar {
+    background-image: url(../img/bg-mobile.png);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .content {
+    margin-top: -80px;
+  }
+
+  .dds img{
+    width: 90%;
+  }
+
+  .internship {
+    margin-top: -130px;
+  }
+
+  .title {
+    margin-top: -30px;
+    font-weight: bold;
+  }
+
+  .deskripsi {
+    font-size: 13px !important;
+    text-align: justify;
+  }
+
+  .footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+  }
+
+  .footer img{
+    width: 100%;        
+  }
+
+  .navbar-brand img {
+    width: 120px;
+  }
+
+}
+
+  @media (min-width: 376px and 570px) { 
+    .nav-link {
+      font-size: 18px;
+      font-weight: bold;
+      color: #349C55 !important;
+      margin-left: 1.7rem;
+  }
+    
+  
+    .nav-link:hover {
+      font-weight: bolder;
+    }
+  
+    .pagination a {
+      color: black;
+      float: right;
+      padding: 0;
+      text-decoration: none;
+      transition: background-color .3s;
+      font-size: 13px;
+      /* margin-top: 0.8em; */
+      
+    }
+    
+    .pagination a.active {
+      background-color: dodgerblue;
+      color: white;
+    }
+    
+    .navbar-collapse{
+      position: absolute;
+      left: 10;
+      padding-top: 5px;
+      top: 10px;
+      z-index: 100;
+      background-attachment: fixed;
+    }
+  
+    .bg-dasar {
+      background-image: url(../img/bg-mobile.png);
+      min-height: 100vh;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+  
+    .content {
+      margin-top: -80px;
+    }
+  
+    .dds img{
+      width: 90%;
+    }
+  
+    .internship {
+      margin-top: -130px;
+    }
+  
+    .title {
+      margin-top: -30px;
+      font-weight: bold;
+    }
+  
+    .deskripsi {
+      font-size: 13px !important;
+      text-align: justify;
+  }
+    
+  
+    .footer{
+      position: fixed;
+      width: 100%;
+      bottom: 0px;
+    }
+  
+    .footer img{
+      width: 100%;        
+    }
+  
+    .navbar-brand img {
+      width: 120px;
+    }
+  }
+  
+  
+  
+/* End Mobile Version */
+
+/* CSS FROM CAHYORA */
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #679b91;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color:#6ba59a;
+  }
+  
+.title {
+    font-size: 40px;
+    padding-top: 2%;
+    color: #45A562;
+    font-weight: bold; 
+}
+  /* For desktop: */
+  .col-md-1 {width: 8.33%;}
+  .col-md-2 {width: 16.66%;}
+  .col-md-3 {width: 25%;}
+  .col-md-4 {width: 33.33%;}
+  .col-md-5 {width: 41.66%;}
+  .col-md-6 {width: 50%;}
+  .col-md-7 {width: 58.33%;}
+  .col-md-8 {width: 66.66%;}
+  .col-md-9 {width: 75%;}
+  .col-md-10 {width: 83.33%;}
+  .col-md-11 {width: 91.66%;}
+  .col-md-12 {width: 100%;}
+  
+  .deskripsi {
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+    .buttonmore {
+      background-image: linear-gradient(to right, #45A562 25%, #56C281 75%);
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-weight: bold;
+   }
+   .nav-link {
+      font-size: 18px;
+      font-weight: bold;
+      color: #349C55 !important;
+      margin-left: 1.7rem;
+  }
+    
+  
+    .nav-link:hover {
+      font-weight: bolder;
+    }
+  
+    .pagination a {
+      color: black;
+      float: right;
+      padding: 0;
+      text-decoration: none;
+      transition: background-color .3s;
+      font-size: 13px;
+      /* margin-top: 0.8em; */
+      
+    }
+    
+    .pagination a.active {
+      background-color: dodgerblue;
+      color: white;
+    }
+    
+    .navbar-collapse{
+      position: absolute;
+      left: 10;
+      padding-top: 5px;
+      top: 10px;
+      z-index: 100;
+      background-attachment: fixed;
+    }
+  
+    .bg-dasar {
+      background-image: url(../img/bg-mobile.png);
+      min-height: 100vh;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+  
+    .content {
+      margin-top: -80px;
+    }
+  
+    .dds img{
+      width: 90%;
+    }
+  
+    .internship {
+      margin-top: -130px;
+    }
+  
+    .title {
+      margin-top: -30px;
+      font-weight: bold;
+    }
+  
+    .deskripsi {
+      font-size: 13px !important;
+      text-align: justify;
+  }
+    
+  
+    .footer{
+      position: fixed;
+      width: 100%;
+      bottom: 0px;
+    }
+  
+    .footer img{
+      width: 100%;        
+    }
+  
+    .navbar-brand img {
+      width: 120px;
+    }
+
+  }
+
+  @media screen and (min-width: 600px) {
+    .title {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .deskripsi {
+        font-size: 16px;
+        margin-left: auto;
+        text-align: justify;
+  }
+      
+
+      .buttonmore {
+        background-image: linear-gradient(to right, #45A562 25%, #56C281 75%);
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+}
+  
+
+
+  @media screen and (max-width: 610px) {
+
+
+
+    .wrapper {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    
+    .title {
+      font-size: 21px;
+      text-align: center;
+      font-weight: bold;
+      
+    }
+    .deskripsi {
+        font-size: 15px;
+         
+      
+      }
+    
+      .navbar {
+          font-size: 12px;
+
+      }
+
+      .navbar-collapse{
+        position: absolute;
+        margin-top: 10px;
+        left: 10;
+        top: 80px;
+        z-index: 100;
+      }
+
+      .ilink {
+        color: black !important;
+      }
+
+      .ilink:hover {
+        color: #349C55 !important;
+      }
+ 
+ 
+      .img-resp{
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        display: flex;
+      }
+
+        .buttonmore {
+        background-image: linear-gradient(to right, #45A562 25%, #56C281 75%);
+        display: block;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: bold;
+        }
+
+  }
+
+
+  /* END CSS CAHYORA*/
